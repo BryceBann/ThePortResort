@@ -1,0 +1,281 @@
+html {
+    font-size: 62.8%;
+}
+
+main {
+    padding: 0rem 1rem;
+    width: 100%;
+}
+
+body {
+    color: #3c3c3c;
+    font: 300 1.4rem open sans, sans-serif;
+    letter-spacing: 0.5px;
+}
+
+section {
+    padding: 1.5rem;
+}
+
+.body-wrapper {
+    width: 70%;
+}
+
+h1 {
+    font: 900 2.4rem/3.6rem "Titillium Web", serif;
+    margin: 0 0 1.5rem;
+    letter-spacing: 1rem;
+    line-height: 2;
+}
+
+h2 {
+    font: 200 4.8rem "Titillium Web", serif;
+}
+
+.numbers {
+    margin-right: 1rem;
+}
+
+.section-title h2::after {
+    background: #9c27b0 none repeat scroll 0 0;
+    content: "";
+    display: table;
+    height: .2rem;
+    width: 4rem;
+    margin-left: 3rem;
+}
+
+.projects {
+    margin-left: .3rem;
+}
+
+.sidebar,
+.sidebarWrapper,
+.sig-pic {
+    background-color: purple;
+}
+
+.bg-color {
+    background-color: black;
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.sidebarWrapper {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+}
+.profile-name {
+    background-color: #9c27b0;
+    color: whitesmoke;
+    text-align: center;
+    font-family: 'Meddon', cursive;
+    font-size: 2rem;
+}
+
+.contact {
+    list-style-type: none;
+    margin-left: -1.3rem;
+}
+
+.nav {
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding: 2rem 3rem;
+    background: #fff none repeat scroll 0 0;
+    list-style-type: none;
+    
+}
+
+.nav-menu ul li {
+    text-align: center;
+    text-transform: uppercase;
+    font: 900 1.3rem "Titillium Web",serif;
+    
+}
+
+.row>* {
+    padding-right: 0;
+    padding-left: 0;
+}
+
+
+#sidebar {
+    min-width: 250px;
+    max-width: 250px;
+}
+
+.nav a {
+    padding: .6rem .8rem .6rem 1.6rem;
+    text-decoration: none;
+    font-size: 2.5rem;
+    color: black;
+    display: block;
+    font: 900 1.2rem "Titillium Web", serif;
+    line-height: 2;
+}
+
+.btn {
+    background-color: #9c27b0;
+    color: #fff;
+}
+
+.btn:hover {
+    color: #9c27b0;
+}
+
+.nav a:hover {
+    color: plum;
+}
+
+.nav-wrapper {
+    display: flex;
+    width: 100%;
+    align-items: stretch;
+}
+
+.list-unstyled {
+    list-style-type: none;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    background-color: white;
+    padding-bottom: 1rem;
+
+}
+
+.github-icon {
+    line-height: 2;
+    width: 4rem;
+    color:#fff;
+    font-size: 2rem;
+    border-radius: 50%;
+    background-color: rgb(47, 255, 75);
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.linkedin-icon {
+    line-height: 2;
+    width: 4rem;
+    color:#fff;
+    font-size: 2rem;
+    border-radius: 50%;
+    background-color: rgb(47, 161, 255);
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+.email-icon {
+    line-height: 2;
+    width: 4rem;
+    color:#fff;
+    font-size: 2rem;
+    border-radius: 50%;
+    background-color: rgb(255, 47, 47);
+    margin-left: 1rem;
+    margin-right: 1rem;
+}
+
+
+
+.body-margin {
+    margin-top: 3rem;
+}
+
+.user-pic {
+    width: 20rem;
+    height: auto;
+    border-radius: 50%;
+    margin: 0 auto;
+    margin-top: 3rem;
+}
+
+.section-title span {
+    color: #969696;
+    font: 500 1.4rem open sans, sans-serif;
+}
+
+
+#viewport {
+    padding-left: 450px;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+}
+
+#content {
+    width: 100%;
+    position: relative;
+    margin-right: 0;
+}
+
+/* Sidebar Styles TESTING */
+
+#sidebar {
+    z-index: 1000;
+    position: fixed;
+    left: 400px;
+    width: 250px;
+    height: 100%;
+    margin-left: -250px;
+    overflow-y: auto;
+    background: #9c27b0;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    box-shadow: 0px 5px 20px 10px #aaaaaa;
+}
+
+#sidebar header {
+    background-color: #9c27b0;
+    font-size: 20px;
+    line-height: 52px;
+    text-align: center;
+}
+
+#sidebar header a {
+    color: #fff;
+    display: block;
+    text-decoration: none;
+}
+
+#sidebar header a:hover {
+    color: #fff;
+}
+
+#sidebar .nav {}
+
+#sidebar .nav a {
+    background: none;
+    color: #000000;
+    font-size: 14px;
+    padding: 16px 24px;
+}
+
+#sidebar .nav a:hover {
+    background: none;
+    color: #9c27b0;
+}
+
+#sidebar .nav a i {
+    margin-right: 16px;
+}
+
+
+
+
+
+@media screen and (max-height: 450px) {
+    .sidebar {
+        padding-top: 1.5rem;
+    }
+
+    .sidebar a {
+        font-size: 1.8rem;
+    }
+}

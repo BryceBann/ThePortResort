@@ -1,0 +1,135 @@
+html {
+    background-image: url('/images/background.webp');
+    background-repeat: repeat;
+    background-position: right;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+body {
+
+    background-image: url('/images/background.webp');
+    background-repeat: repeat;
+    background-position: right;
+    background-attachment: fixed;
+    background-size: cover;
+    font-family: 'Titillium Web', sans-serif;
+    font-size: 1.6rem;
+    /* height: 100vh; */
+}
+
+hero {
+    height: 7rem;
+    background: transparent;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    position: relative;
+}
+
+h1 {
+    font-size: 3rem;
+}
+
+.edit-post {
+    padding: 4rem;
+}
+
+.card {
+    background-color: rgba(0, 0, 0, 0.6); 
+}
+
+td {
+    padding: 1rem;
+}
+
+.post-info {
+    background: transparent;
+}
+
+.mask {
+    /* background-color: rgba(0, 0, 0, 0.6);   */
+    height: 91vh;
+    margin: 0 -4rem -5rem -4rem;
+}
+
+.dashboard-back {
+    text-decoration: none;
+    color: #fff;
+    margin-left: 5rem;
+}
+
+.publish-btn {
+    margin-top: 1rem;
+    color: #fff;
+}
+
+form {
+    border: solid #fff .3rem;
+    border-radius: 1rem;
+}
+
+.navbar {
+    height: 3rem;
+    background-color: #010e30;
+    margin-left: auto;
+}
+
+.navbar-nav {
+    display: flex;
+    align-items: center;
+}
+
+.title {
+    font-family: monospace;
+    font-size: 3rem;
+    font-weight: 700;
+    color: #be3374;
+    margin-top: 6.5rem;
+}
+
+.img {
+    background-size: 20rem;
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 12rem;
+    width: auto;
+}
+
+.dashboard {
+    margin-top: 8rem;
+}
+
+#logout {
+    font-size: 1.5rem;
+}
+
+
+.title-login {
+    font-size: 3rem;
+}
+
+#sign-up {
+    font-size: 1rem;
+}
+
+#login-btn {
+    font-size: 1rem;
+}
+
+#login-action,
+.signup-action {
+    margin-top: 2rem;
+    display: inline;
+}
+
+.signup-btn {
+    color: white;
+    border: solid white .1rem;
+    margin-bottom: 1rem;
+}
+
+.title-sign {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
